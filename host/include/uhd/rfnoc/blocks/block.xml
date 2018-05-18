@@ -2,6 +2,7 @@
 <nocblock>
   <name>Block</name>
   <blockname>Block</blockname>
+  <hdlname>axi_fifo_loopback</hdlname>
   <ids>
     <id revision="0">FFFFFFFFFFFFFFFF</id>
   </ids>

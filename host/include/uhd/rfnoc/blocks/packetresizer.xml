@@ -2,6 +2,7 @@
 <nocblock>
   <name>Packet Resizer</name>
   <blockname>PacketResizer</blockname>
+  <hdlname>packet_resizer</hdlname>
   <doc>
     Block controller for the Packet Resizer RFNoC block.
 

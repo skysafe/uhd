@@ -2,6 +2,7 @@
 <nocblock>
   <name>Log Power</name>
   <blockname>LogPwr</blockname>
+  <hdlname>logpwr</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">4C50</id>

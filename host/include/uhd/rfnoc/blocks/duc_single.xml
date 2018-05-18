@@ -3,6 +3,7 @@
   <name>Tx DSP (DUC/CORDIC)</name>
   <blockname>DUC</blockname>
   <key>DUC</key>
+  <hdlname>duc</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">D0C0000000000000</id>

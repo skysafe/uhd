@@ -1,6 +1,7 @@
 <nocblock>
   <name>Debug</name>
   <blockname>Debug</blockname>
+  <hdlname>debug</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">DEB1200000000000</id>

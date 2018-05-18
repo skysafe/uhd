@@ -3,6 +3,7 @@
   <name>EISCAT Rx DSP (DDC/CORDIC)</name>
   <blockname>DDC</blockname>
   <key>DDC</key>
+  <hdlname>ddc</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">DDC5E15CA7000000</id>
