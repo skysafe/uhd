@@ -2,6 +2,7 @@
 <nocblock>
   <name>Moving Average</name>
   <blockname>MovingAverage</blockname>
+  <hdlname>moving_avg</hdlname>
   <ids>
     <id revision="0">AAD2</id>
   </ids>

@@ -3,13 +3,11 @@
   <name>DMA FIFO</name>
   <blockname>DmaFIFO</blockname>
   <key>DmaFIFO</key>
+  <hdlname>axi_dma_fifo</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">F1F0D00000000004</id>
   </ids>
-  <!-- Registers -->
-  <registers>
-  </registers>
   <!-- Args -->
   <args>
     <arg>
@@ -105,5 +103,40 @@
       <name>out3</name>
     </source>
   </ports>
+  <io>
+    <clock>ddr3_axi_clk_x2</clock>
+    <reset>ddr3_axi_rst</reset>
+    <dram>
+      <vlen>4</vlen>
+    </dram>
+    <parameter>
+      <name>STR_SINK_FIFOSIZE</name>
+      <value>DRAM_FIFO_INPUT_BUFF_SIZE</value>
+    </parameter>
+    <parameter>
+      <name>MTU</name>
+      <value>10</value>
+    </parameter>
+    <parameter>
+      <name>NUM_FIFOS</name>
+      <value>4</value>
+    </parameter>
+    <parameter>
+      <name>BUS_CLK_RATE</name>
+      <value>BUS_CLK_RATE</value>
+    </parameter>
+    <parameter>
+      <name>DEFAULT_FIFO_BASE</name>
+      <value>{30'h06000000, 30'h04000000, 30'h02000000, 30'h00000000}</value>
+    </parameter>
+    <parameter>
+      <name>DEFAULT_FIFO_SIZE</name>
+      <value>{30'h01FFFFFF, 30'h01FFFFFF, 30'h01FFFFFF, 30'h01FFFFFF}</value>
+    </parameter>
+    <parameter>
+      <name>DEFAULT_BURST_TIMEOUT</name>
+      <value>{12'd280, 12'd280, 12'd280, 12'd280}</value>
+    </parameter>
+  </io>
 </nocblock>
 

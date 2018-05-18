@@ -1,6 +1,7 @@
 <nocblock>
   <name>Null Source/Sink</name>
   <blockname>NullSrcSink</blockname>
+  <hdlname>null_source_sink</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">0000000000000000</id>

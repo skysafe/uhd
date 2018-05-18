@@ -2,6 +2,7 @@
 <nocblock>
   <name>OFDM Equalizer</name>
   <blockname>OFDMEq</blockname>
+  <hdlname>eq</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">FF42</id>

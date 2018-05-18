@@ -2,6 +2,7 @@
 <nocblock>
   <name>fosphor</name>
   <blockname>fosphor</blockname>
+  <hdlname>fosphor</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">666F</id>

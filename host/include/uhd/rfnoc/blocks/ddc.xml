@@ -3,6 +3,7 @@
   <name>Rx DSP (DDC/CORDIC)</name>
   <blockname>DDC</blockname>
   <key>DDC</key>
+  <hdlname>ddc</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">DDC0000000000000</id>
@@ -150,5 +151,19 @@
       <type>sc16</type>
     </source>
   </ports>
+  <io>
+    <parameter>
+      <name>NUM_CHAINS</name>
+      <value>2</value>
+    </parameter>
+    <parameter>
+      <name>NUM_HB</name>
+      <value>3</value>
+    </parameter>
+    <parameter>
+      <name>CIC_MAX_DECIM</name>
+      <value>255</value>
+    </parameter>
+  </io>
 </nocblock>
 

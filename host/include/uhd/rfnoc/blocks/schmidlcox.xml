@@ -2,6 +2,7 @@
 <nocblock>
   <name>Schmidl &amp; Cox</name>
   <blockname>SchmidlCox</blockname>
+  <hdlname>schmidl_cox</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">5CC0</id>

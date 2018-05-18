@@ -2,6 +2,7 @@
 <nocblock>
   <name>Keep One in N</name>
   <blockname>KeepOneInN</blockname>
+  <hdlname>keep_one_in_n</hdlname>
   <doc>
     Block controller for the Keep One in N RFNoC block.
 
