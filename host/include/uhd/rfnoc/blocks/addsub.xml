@@ -6,6 +6,7 @@
   <!--- Block Port 0 - Block Port 1 => Block Port 1-->
   <name>Adder &amp; Subtractor</name>
   <blockname>AddSub</blockname>
+  <hdlname>addsub</hdlname>
   <ids>
     <id revision="0">ADD0</id>
   </ids>

@@ -2,6 +2,7 @@
   <name>Radio (EISCAT)</name>
   <blockname>Radio</blockname>
   <key>EISCATRadio</key>
+  <hdlname>radio_core</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">E15CA70000000000</id>

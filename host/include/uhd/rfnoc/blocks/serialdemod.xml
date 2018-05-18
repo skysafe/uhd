@@ -2,6 +2,7 @@
 <nocblock>
   <name>OFDM Constellation Demod</name>
   <blockname>OFDMDemap</blockname>
+  <hdlname>ofdm_constellation_demapper</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">0FCD</id>

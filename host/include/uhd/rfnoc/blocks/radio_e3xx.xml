@@ -3,21 +3,11 @@
   <name>Radio (E3XX)</name>
   <blockname>Radio</blockname>
   <key>E3XXRadio</key>
+  <hdlname>radio_core</hdlname>
   <!--There can be several of these:-->
   <ids>
     <id revision="0">12AD100000000000</id>
   </ids>
-  <!-- Registers -->
-  <registers>
-    <!--<setreg>-->
-      <!--<name>FFT_RESET</name>-->
-      <!--<address>131</address>-->
-    <!--</setreg>-->
-    <!--<readback>-->
-      <!--<name>RB_MAGNITUDE_OUT</name>-->
-      <!--<address>1</address>-->
-    <!--</readback>-->
-  </registers>
   <!-- Args -->
   <args>
     <arg>
