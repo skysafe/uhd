@@ -99,4 +99,8 @@
       <pkt_size>%vlen</pkt_size>
     </source>
   </ports>
+  <io>
+    <clock>bus_clk_div2</clock>
+    <reset>bus_rst_div2</reset>
+  </io>
 </nocblock>
