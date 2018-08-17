@@ -107,7 +107,7 @@
     <clock>ddr3_axi_clk_x2</clock>
     <reset>ddr3_axi_rst</reset>
     <dram>
-      <vlen>4</vlen>
+      <vlen>NUM_FIFOS</vlen>
     </dram>
     <parameter>
       <name>STR_SINK_FIFOSIZE</name>
